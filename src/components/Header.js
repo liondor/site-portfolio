@@ -26,7 +26,7 @@ const useStyles = makeStyles(theme=> ({
         top:"50%",
         left:"50%",
         transform: "translate(-50%, -50%)",
-        width: "100vw",
+        width: "100%",
         textAlign:"center",
         zIndex:1
     }
@@ -41,10 +41,10 @@ const Header = () => {
             </Grid>
 
             <Typography className={classes.title} variant={"h4"}>
-                <Typed strings={["Johen SYLVESTRE"]} typeSpeed={40}></Typed>
+                <Typed strings={["Johen SYLVESTRE"]} typeSpeed={40}/>
             </Typography>
             <Typography className={classes.subtitle}variant={"h5"}>
-                <Typed strings={["Ingénieur en Informatique","Développement Web Fullstack", "Développement de logiciel"]} typeSpeed={40} backSpeed={60} loop></Typed>
+                <Typed strings={["Ingénieur en Informatique","Développement Web Fullstack", "Développement de logiciels"]} typeSpeed={40} backSpeed={60} loop/>
             </Typography>
         </Box>
     )

@@ -1,4 +1,6 @@
 import React, {useState} from "react";
+import {Link} from "react-router-dom";
+import Footer from "./Footer";
 import {
     AppBar,
     Toolbar,
@@ -13,7 +15,7 @@ import {
     Box
 } from "@material-ui/core";
 import {
-    ArrowBack,
+    Menu,
     AssignmentInd,
     Home,
     Apps,
@@ -44,19 +46,26 @@ const useStyles = makeStyles(theme => ({
 const menuItems = [
     {
         listIcon: <Home/>,
-        listText: "Home"
+        listText: "Accueil",
+        listPath: "/"
+
     },
     {
         listIcon: <AssignmentInd/>,
-        listText: "Resume"
+        listText: "CV",
+        listPath: "/resume"
     },
     {
         listIcon: <Apps />,
-        listText: "Portfolio"
+        listText: "Portfolio",
+        listPath: "/portfolio"
+
     },
     {
         listIcon: <ContactMail/>,
-        listText: "Contacts"
+        listText: "Contacts",
+        listPath: "/contacts"
+
     },
 
 
@@ -82,7 +91,11 @@ const Navbar = () => {
             <List>
                 {
                     menuItems.map((item,key) => (
-                        <ListItem button key={key}  onClick={toggleSlider("right",false)}>
+                        <ListItem button key={key}
+                                  component={Link}
+                                  to={item.listPath}
+                                  onClick={toggleSlider("right",false)}
+                        >
                             <ListItemIcon className={classes.menuItem}>
                                 {item.listIcon}
                             </ListItemIcon>
@@ -94,7 +107,10 @@ const Navbar = () => {
                 }
 
             </List>
-        </Box>)
+
+        </Box>
+
+    )
 
 
     return (
@@ -104,7 +120,7 @@ const Navbar = () => {
                 <AppBar position={"static"} style={{background: "#222"}}>
                     <Toolbar>
                         <IconButton onClick={toggleSlider("right",true)}>
-                            <ArrowBack style={{color: "tomato"}}/>
+                            <Menu style={{color: "tomato"}}/>
                         </IconButton>
                         <Typography variant={"h5"} style={{color: "tan"}}>
                             Portfolio
@@ -115,10 +131,13 @@ const Navbar = () => {
                             onClose={toggleSlider("right", false)}
                         >
                             {sideList("right")}
+                            <Footer/>
+
                         </MobileRightSideDrawer>
 
                     </Toolbar>
                 </AppBar>
+
             </Box>
         </>
 

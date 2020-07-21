@@ -2,6 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/liondor/site-portfolio/",
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
@@ -12,6 +13,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-particles-js": "^3.2.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
     "react-typed": "^1.2.0"
   },
@@ -20,7 +22,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -d build"
+    "copy": "copy .\\CNAME .\\build\\CNAME",
+    "predeploy": "npm run build && npm run copy",
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
