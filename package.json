@@ -23,7 +23,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "copy": "copy .\\CNAME .\\build\\CNAME",
-    "predeploy": "npm run build && npm run copy",
+    "predeploy": "npm run build ",
     "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
