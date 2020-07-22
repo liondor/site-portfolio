@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.1e72daf5.chunk.css",
-    "main.js": "/static/js/main.cca4007b.chunk.js",
-    "main.js.map": "/static/js/main.cca4007b.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
-    "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
-    "static/js/2.597dbe66.chunk.js": "/static/js/2.597dbe66.chunk.js",
-    "static/js/2.597dbe66.chunk.js.map": "/static/js/2.597dbe66.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.27dd752709fac90c82c11512592d7df5.js": "/precache-manifest.27dd752709fac90c82c11512592d7df5.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.1e72daf5.chunk.css.map": "/static/css/main.1e72daf5.chunk.css.map",
-    "static/js/2.597dbe66.chunk.js.LICENSE.txt": "/static/js/2.597dbe66.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/static/media/coffee-apple.2dd213aa.jpg",
-    "static/media/corona.png": "/static/media/corona.f3db6cca.png",
-    "static/media/techPortfolio.png": "/static/media/techPortfolio.443fce3f.png"
+    "main.css": "/site-portfolio/static/css/main.41a4a909.chunk.css",
+    "main.js": "/site-portfolio/static/js/main.080988c8.chunk.js",
+    "main.js.map": "/site-portfolio/static/js/main.080988c8.chunk.js.map",
+    "runtime-main.js": "/site-portfolio/static/js/runtime-main.41dc3cca.js",
+    "runtime-main.js.map": "/site-portfolio/static/js/runtime-main.41dc3cca.js.map",
+    "static/js/2.597dbe66.chunk.js": "/site-portfolio/static/js/2.597dbe66.chunk.js",
+    "static/js/2.597dbe66.chunk.js.map": "/site-portfolio/static/js/2.597dbe66.chunk.js.map",
+    "index.html": "/site-portfolio/index.html",
+    "precache-manifest.1b509041e10ea12e80d00b4c714a76dd.js": "/site-portfolio/precache-manifest.1b509041e10ea12e80d00b4c714a76dd.js",
+    "service-worker.js": "/site-portfolio/service-worker.js",
+    "static/css/main.41a4a909.chunk.css.map": "/site-portfolio/static/css/main.41a4a909.chunk.css.map",
+    "static/js/2.597dbe66.chunk.js.LICENSE.txt": "/site-portfolio/static/js/2.597dbe66.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/site-portfolio/static/media/coffee-apple.2dd213aa.jpg",
+    "static/media/corona.png": "/site-portfolio/static/media/corona.f3db6cca.png",
+    "static/media/techPortfolio.png": "/site-portfolio/static/media/techPortfolio.443fce3f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.19ccc7f6.js",
+    "static/js/runtime-main.41dc3cca.js",
     "static/js/2.597dbe66.chunk.js",
-    "static/css/main.1e72daf5.chunk.css",
-    "static/js/main.cca4007b.chunk.js"
+    "static/css/main.41a4a909.chunk.css",
+    "static/js/main.080988c8.chunk.js"
   ]
 }
