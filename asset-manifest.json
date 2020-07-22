@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/liondor/site-portfolio/static/css/main.702dd34b.chunk.css",
+    "main.js": "/liondor/site-portfolio/static/js/main.3db4265a.chunk.js",
+    "main.js.map": "/liondor/site-portfolio/static/js/main.3db4265a.chunk.js.map",
+    "runtime-main.js": "/liondor/site-portfolio/static/js/runtime-main.cbc47afd.js",
+    "runtime-main.js.map": "/liondor/site-portfolio/static/js/runtime-main.cbc47afd.js.map",
+    "static/js/2.597dbe66.chunk.js": "/liondor/site-portfolio/static/js/2.597dbe66.chunk.js",
+    "static/js/2.597dbe66.chunk.js.map": "/liondor/site-portfolio/static/js/2.597dbe66.chunk.js.map",
+    "index.html": "/liondor/site-portfolio/index.html",
+    "precache-manifest.1bb4d23348dcaf542c02cf4a540c61f3.js": "/liondor/site-portfolio/precache-manifest.1bb4d23348dcaf542c02cf4a540c61f3.js",
+    "service-worker.js": "/liondor/site-portfolio/service-worker.js",
+    "static/css/main.702dd34b.chunk.css.map": "/liondor/site-portfolio/static/css/main.702dd34b.chunk.css.map",
+    "static/js/2.597dbe66.chunk.js.LICENSE.txt": "/liondor/site-portfolio/static/js/2.597dbe66.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/liondor/site-portfolio/static/media/coffee-apple.2dd213aa.jpg",
+    "static/media/corona.png": "/liondor/site-portfolio/static/media/corona.f3db6cca.png",
+    "static/media/techPortfolio.png": "/liondor/site-portfolio/static/media/techPortfolio.443fce3f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cbc47afd.js",
+    "static/js/2.597dbe66.chunk.js",
+    "static/css/main.702dd34b.chunk.css",
+    "static/js/main.3db4265a.chunk.js"
+  ]
+}
